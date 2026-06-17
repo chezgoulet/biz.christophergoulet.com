@@ -71,7 +71,7 @@ The stats panel should feel like a small side card, not a featured element. Ambe
 
 **4 pain cards in 2-column grid (same pattern as current biz page):**
 
-1. **"My systems keep breaking and no one can fix them."**
+1. **"Stuff keeps breaking and no one can fix it."**
    I build simple, documented, stable setups that one person on your team can actually run — without needing me on retainer forever.
 
 2. **"I'm drowning in monthly subscriptions."**
@@ -80,7 +80,7 @@ The stats panel should feel like a small side card, not a featured element. Ambe
 3. **"I want to pass this on — not sell to a stranger."**
    There's another option besides closing up or selling out: hand the business to the people who run it. I help families and owners explore worker ownership and cooperative models. I've done it.
 
-4. **"The big software treats me like a corporation."**
+4. **"Big tech doesn't care about us."**
    You're not an enterprise and you shouldn't pay like one. I right-size technology for real small businesses, in plain language, at a price that fits.
 
 ### Proof Block — Covered Bridge
