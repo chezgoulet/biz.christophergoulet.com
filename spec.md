@@ -39,7 +39,7 @@ The biz page doesn't need a signature gimmick — it needs authority, clarity, a
 ```
 [Nav — brand + "Book a call" CTA]
 [Hero — identity + subtitle + stats panel + actions]
-[Section 01 — Pain questions: "It shouldn't be this hard"]
+[Section 01 — Pain questions: "Running a small business is hard"]
 [Section 02 — Proof: Covered Bridge story]
 [Section 03 — Services: "What I deliver"]
 [Section 04 — "If you want to go far, go together"]
@@ -67,7 +67,7 @@ The stats panel should feel like a small side card, not a featured element. Ambe
 
 ### Pain Questions
 
-**Section header:** "It shouldn't be this hard to run your business."
+**Section header:** "Running a small business is hard."
 
 **4 pain cards in 2-column grid (same pattern as current biz page):**
 
@@ -102,7 +102,7 @@ The stats panel should feel like a small side card, not a featured element. Ambe
 
 ### Services
 
-**Section header:** "What I deliver."
+**Section header:** "My practice."
 
 **4 service cards in 3-column grid (amber underline on hover):**
 
