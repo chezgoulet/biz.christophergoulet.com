@@ -228,7 +228,7 @@ footer .frow{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px;
         <div class="pf-body">
           <h3>I turned my family's cookie bakery into a worker-owned business. Revenue tripled.</h3>
           <blockquote>"There's a lot of shared DNA between baking cookies and shipping software. Recipes, a production line, a package, a customer. Source code, a pipeline, a build, a deploy. Same shape."</blockquote>
-          <p class="pf-text">Covered Bridge is a thirty-year-old family cookie bakery in Vermont. Four recipes, real ingredients, nothing you can't pronounce. We went to 100% worker ownership — four owners, living wage, good conditions. The legacy stays with the people who do the work.</p>
+          <p class="pf-text">Covered Bridge is a thirty-year-old family cookie bakery in Vermont. His father's recipes, real ingredients, nothing you can't pronounce. We went to 100% worker ownership — four owners, living wage, good conditions. The legacy stays with the people who do the work.</p>
           <p class="pf-text">It's hard. Real collaboration — sharing power genuinely — is hard every day. Worth it. But not a switch you flip once. You choose it, actively, every morning.</p>
           <div class="pf-stats">
             <div class="pf-stat"><div class="n">100%</div><div class="l">worker-owned</div></div>
@@ -282,7 +282,7 @@ footer .frow{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px;
           <h2>The first call is free.</h2>
           <p>Tell me what you're trying to build, keep, or pass on. No pitch, no pressure.</p>
           <div class="btn-row">
-            <a class="btn btn-primary" href="https://cal.com/christophergoulet" target="_blank" rel="noopener">Book a call <svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-primary" href="https://book.christophergoulet.com" target="_blank" rel="noopener">Book a call <svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
             <a class="btn btn-ghost" href="mailto:me@christophergoulet.com"><svg width="15" height="15" viewBox="0 0 24 24"><use href="#i-mail"/></svg> me@christophergoulet.com</a>
           </div>
         </div>
@@ -299,7 +299,7 @@ footer .frow{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px;
       <a href="https://canada.christophergoulet.com">canada</a>
       <a href="https://civic.christophergoulet.com">civic</a>
     </div>
-    <div class="foot-meta">Windsor, Vermont · EN · FR · <span id="clock">--:--:-- UTC</span> · © 2026</div>
+    <div class="foot-meta">Windsor, Vermont · EN · FR · © 2026</div>
   </div>
 </footer>
 
@@ -307,9 +307,7 @@ footer .frow{display:flex;justify-content:space-between;flex-wrap:wrap;gap:18px;
 (function(){
   var t=document.getElementById('navToggle'),l=document.getElementById('navLinks');
   if(t)t.addEventListener('click',function(){l.classList.toggle('open')});
-  function tick(){var d=new Date();function p(n){return String(n).padStart(2,'0')}
-    var el=document.getElementById('clock');if(el)el.textContent=p(d.getUTCHours())+':'+p(d.getUTCMinutes())+':'+p(d.getUTCSeconds())+' UTC';}
-  tick();setInterval(tick,1000);
+
   var els=document.querySelectorAll('.reveal');
   if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){els.forEach(function(e){e.classList.add('in')});return;}
   var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{threshold:.12});
